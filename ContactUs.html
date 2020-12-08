@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Css/main.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" async></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async></script>
+</head>
+<body>
+    <nav class="navbar rounded shadow navbar-expand-lg bg-primary navbar-dark container p-3">
+        <a href="index.html" class="navbar-brand">Sky Valley Shepherds</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pl-3 pr-3"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown pl-3 pr-3"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">About Us</a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#OurMission" class="dropdown-item">Our Mission</a>
+                        <a href="Josh.html" class="dropdown-item">Josh</a>
+                        <a href="Alaina.html" class="dropdown-item">Alaina</a>
+                        <a href="Spencer.html" class="dropdown-item">Spencer</a>
+                        <a href="Alex.html" class="dropdown-item">Alex</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown pl-3 pr-3"><a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Our Dogs</a>
+                    <div class="dropdown-menu">
+                        <a href="Kona.html" class="dropdown-item">Kona</a>
+                        <a href="Scout.html" class="dropdown-item">Scout</a>
+                        <a href="Ryder.html" class="dropdown-item">Ryder</a>   
+                    </div>
+                </li>
+                <li class="nav-item pl-3 pr-3"><a href="ContactUs.html" class="active nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container bg-light pb-5 pt-5">
+        <form action="#">
+            <div class="row mt-2">
+                <div class="form-group col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 offset-xl-3 offset-lg-3 offset-md-1">
+                    <input type="text" placeholder="First Name" id="firstName" class="form-control">
+                </div>
+                <div class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-8 col-xs-8">
+                    <input type="text" placeholder="Last Name" id="surname" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 offset-xl-3 offset-lg-3 offset-md-1">
+                    <input type="email" placeholder="Enter email" id="email" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 offset-xl-3 offset-lg-3 offset-md-1">
+                    <input type="text" placeholder="Subject" id="subject" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 offset-xl-3 offset-lg-3 offset-md-1">
+                    <textarea class="form-control" rows="5" id="message" placeholder="Type message here..."></textarea>
+                </div>
+            </div>
+            <div class="checkbox mt-2 pl-2 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 offset-xl-3 offset-lg-3 offset-md-1">
+                <label for="checkbox"><input type="checkbox" value="" checked>Yes, I want to join the email list!</label>
+            </div>
+            <div class="row mt-2">
+                <div class="col-2 offset-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    <div class="container bg-secondary rounded-top">
+        <h2 class="pt-4 mb-4">Enter your email to join our email list and get updates on upcoming litters!</h2>
+        <form action="#">
+            <div class="form-group">
+                <input type="email" class="form-control" id="email focusedInput" placeholder="Enter email" name="email">
+            </div>
+            <button type="submit" class="mb-5 btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>

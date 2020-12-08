@@ -1,0 +1,30 @@
+$primary: rgb(0, 21, 138);
+
+$theme-colors: (
+    "primary": $primary,
+);
+
+$card-border-color: $primary;
+
+.custom-carousel .carousel-indicators {
+        position: relative;
+    } 
+.carousel-item img {
+    width: 100%;
+}
+
+.img-width {
+    max-width: 100%;
+}
+
+.card {
+    box-shadow: 4px 8px 10px;
+}
+ 
+
+$carousel-control-color: #474747;
+
+$carousel-indicator-active-bg: $primary;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

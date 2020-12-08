@@ -1,0 +1,18 @@
+<svg id="ham" xmlns="http://www.w3.org/2000/svg" width="642" height="391" viewBox="0 0 642 391">
+  <g id="Rectangle_3" data-name="Rectangle 3" fill="#030303" stroke="#707070" stroke-width="1">
+    <rect width="642" height="91" rx="45.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="641" height="90" rx="45" fill="none"/>
+  </g>
+  <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(0 150)" fill="#030303" stroke="#707070" stroke-width="1">
+    <rect width="642" height="91" rx="45.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="641" height="90" rx="45" fill="none"/>
+  </g>
+  <g id="Rectangle_5" data-name="Rectangle 5" fill="#030303" stroke="#707070" stroke-width="1">
+    <rect width="642" height="91" rx="45.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="641" height="90" rx="45" fill="none"/>
+  </g>
+  <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(0 300)" fill="#030303" stroke="#707070" stroke-width="1">
+    <rect width="642" height="91" rx="45.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="641" height="90" rx="45" fill="none"/>
+  </g>
+</svg>
